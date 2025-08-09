@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuke Nation - Comunidad Gaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Breaking Gaming Style Header -->
+    <header class="breaking-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-left">
+                    <div class="logo-nuke">
+                        <i class="fas fa-radiation"></i>
+                        <span>NUKE NATION</span>
+                    </div>
+                </div>
+                
+                <div class="header-right">
+                    <div class="user-buttons">
+                        <a href="#" class="login-btn" id="login-btn">
+                            <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+                        </a>
+                    </div>
+                    <div class="social-links-top">
+                        <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-link" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitch">
+                            <i class="fab fa-twitch"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="breaking-nav">
+            <div class="container">
+                <ul class="main-menu">
+                    <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                    <li><a href="foro.html" class="nav-link">Foro</a></li>
+                    <li><a href="reglas.html" class="nav-link">Reglas</a></li>
+                    <li><a href="servidores.html" class="nav-link">Servidores</a></li>
+                    <li><a href="noticias.html" class="nav-link">Noticias</a></li>
+                    <li><a href="descargas.html" class="nav-link">Descargas</a></li>
+                    <li><a href="videos.html" class="nav-link">Videos</a></li>
+                    <li><a href="tienda.html" class="nav-link">Tienda</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Social Media Carousel -->
+    <section class="social-carousel">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="https://images.unsplash.com/photo-1616469829941-c7200edec809?w=1200&h=400&fit=crop" alt="TikTok Nuke Nation">
+                    <div class="carousel-content">
+                        <h3>¡Síguenos en TikTok!</h3>
+                        <p>Contenido exclusivo, highlights de partidas y mucho más</p>
+                        <a href="#" class="carousel-btn">Ver TikTok</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=1200&h=400&fit=crop" alt="Discord Comunidad">
+                    <div class="carousel-content">
+                        <h3>Únete a Discord</h3>
+                        <p>Comunidad activa 24/7 con torneos y premios</p>
+                        <a href="#" class="carousel-btn">Unirse Discord</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&h=400&fit=crop" alt="Torneo CS2">
+                    <div class="carousel-content">
+                        <h3>Torneo CS2 - $5000</h3>
+                        <p>Inscríbete ahora y demuestra tu skill</p>
+                        <a href="#" class="carousel-btn">Registrarse</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow prev" aria-label="Anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-arrow next" aria-label="Siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news-ticker">
+        <div class="ticker-content">
+            <span class="ticker-label">ÚLTIMAS NOTICIAS:</span>
+            <div class="ticker-text">
+                ¡Nuevo torneo de CS2 este fin de semana! • Actualización de servidores • Nuevos rangos disponibles • Sorteo de skins exclusivos • ¡Únete a nuestro Discord para más información! •
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="breaking-main">
+        <div class="container">
+            <!-- Featured News Section -->
+            <section class="featured-news">
+                <div class="news-layout">
+                    <!-- User Panel -->
+                    <div class="user-panel">
+                        <div class="user-header">
+                            <div class="user-avatar">
+                                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop" alt="Avatar">
+                                <div class="user-status online"></div>
+                            </div>
+                            <div class="user-info">
+                                <h3>NukePlayer123</h3>
+                                <span class="user-rank">Premium Member</span>
+                            </div>
+                        </div>
+                        
+                        <div class="user-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-clock"></i>
+                                <span>247 horas jugadas</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>12 logros</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-coins"></i>
+                                <span>1,850 puntos</span>
+                            </div>
+                        </div>
+                        
+                        <div class="user-actions">
+                            <button class="user-btn admin-btn">
+                                <i class="fas fa-cog"></i>
+                                Panel Admin
+                            </button>
+                            <button class="user-btn logout-btn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                Cerrar Sesión
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- News Content -->
+                    <div class="news-content">
+                        <h2 class="section-title">Noticias Destacadas</h2>
+                        
+                        <article class="news-item featured">
+                            <div class="news-image">
+                                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop" alt="Torneo CS2">
+                                <div class="news-overlay">
+                                    <span class="news-date">15 Dic 2024</span>
+                                    <span class="news-views"><i class="fas fa-eye"></i> 1.2K</span>
+                                    <span class="news-likes"><i class="fas fa-heart"></i> 45</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h3>¡Torneo de CS2 - Prize Pool $5000!</h3>
+                                <p>Se acerca el mayor torneo del año con $5000 en premios. Registro abierto para equipos de 5 jugadores. ¡No te pierdas esta oportunidad de demostrar tu skill y ganar increíbles premios!</p>
+                                <div class="news-actions">
+                                    <a href="noticias.html" class="news-btn primary">Leer Más</a>
+                                    <button class="news-btn secondary">Compartir</button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop" alt="Nueva actualización">
+                            </div>
+                            <div class="news-content">
+                                <h3>Nuevos mapas agregados al servidor</h3>
+                                <p>Hemos añadido 5 mapas personalizados populares de la comunidad. ¡Ven a probarlos!</p>
+                                <div class="news-meta">
+                                    <span class="date">12 Dic 2024</span>
+                                    <span class="views"><i class="fas fa-eye"></i> 892</span>
+                                    <a href="servidores.html" class="read-more-link">Leer más <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="https://images.unsplash.com/photo-1606145471234-d3ca9ab5cbc8?w=600&h=300&fit=crop" alt="Update Minecraft">
+                            </div>
+                            <div class="news-content">
+                                <h3>Nueva temporada de facciones</h3>
+                                <p>Reset del mundo con nuevas características y sistema de economía mejorado.</p>
+                                <div class="news-meta">
+                                    <span class="date">10 Dic 2024</span>
+                                    <span class="views"><i class="fas fa-eye"></i> 1.5K</span>
+                                    <a href="videos.html" class="read-more-link">Leer más <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="quick-links">
+                    <a href="tienda.html" class="quick-link">
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=200&fit=crop" alt="Premium">
+                        <div class="quick-link-content">
+                            <h4>Premium/Admin</h4>
+                            <p>Acceso exclusivo y beneficios</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#ranking" class="quick-link" onclick="window.location.href='index.html#ranking'">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop" alt="Ranking">
+                        <div class="quick-link-content">
+                            <h4>Ranking Mensual</h4>
+                            <p>Compite por el top 15</p>
+                        </div>
+                    </a>
+                    
+                    <a href="contacto.html" class="quick-link">
+                        <img src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=300&h=200&fit=crop" alt="WhatsApp">
+                        <div class="quick-link-content">
+                            <h4>Grupo WhatsApp</h4>
+                            <p>Únete a la comunidad</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Rank Store -->
+            <section class="rank-store" id="store">
+                <h2 class="section-title">Tienda de Rangos</h2>
+                <div class="rank-comparison">
+                    <div class="rank-card">
+                        <div class="rank-header">
+                            <h3>Slot Reservado</h3>
+                            <div class="rank-price">$5/mes</div>
+                        </div>
+                        <ul class="rank-features">
+                            <li><i class="fas fa-check"></i> Slot reservado en servidores</li>
+                            <li><i class="fas fa-check"></i> Acceso prioritario</li>
+                            <li><i class="fas fa-times"></i> Chat VIP</li>
+                            <li><i class="fas fa-times"></i> Herramientas Admin</li>
+                            <li><i class="fas fa-times"></i> Servidores exclusivos</li>
+                        </ul>
+                        <button class="rank-btn">Comprar</button>
+                    </div>
+
+                    <div class="rank-card featured">
+                        <div class="rank-badge">MÁS POPULAR</div>
+                        <div class="rank-header">
+                            <h3>Premium</h3>
+                            <div class="rank-price">$15/mes</div>
+                        </div>
+                        <ul class="rank-features">
+                            <li><i class="fas fa-check"></i> Slot reservado en servidores</li>
+                            <li><i class="fas fa-check"></i> Acceso prioritario</li>
+                            <li><i class="fas fa-check"></i> Chat VIP</li>
+                            <li><i class="fas fa-check"></i> Herramientas especiales</li>
+                            <li><i class="fas fa-times"></i> Servidores exclusivos</li>
+                        </ul>
+                        <button class="rank-btn">Comprar</button>
+                    </div>
+
+                    <div class="rank-card">
+                        <div class="rank-header">
+                            <h3>Admin</h3>
+                            <div class="rank-price">$25/mes</div>
+                        </div>
+                        <ul class="rank-features">
+                            <li><i class="fas fa-check"></i> Todo lo de Premium</li>
+                            <li><i class="fas fa-check"></i> Herramientas de administración</li>
+                            <li><i class="fas fa-check"></i> Acceso a servidores exclusivos</li>
+                            <li><i class="fas fa-check"></i> Comandos especiales</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        </ul>
+                        <button class="rank-btn">Comprar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Monthly Ranking -->
+            <section class="monthly-ranking" id="ranking">
+                <h2 class="section-title">Ranking Mensual</h2>
+                <div class="ranking-tabs">
+                    <button class="tab-btn active" data-tab="mix1">Mix I</button>
+                    <button class="tab-btn" data-tab="mix2">Mix II</button>
+                    <button class="tab-btn" data-tab="dm">DM</button>
+                    <button class="tab-btn" data-tab="public">Público</button>
+                </div>
+                
+                <div class="ranking-content">
+                    <div class="tab-content active" data-tab="mix1">
+                        <div class="ranking-table">
+                            <div class="ranking-header">
+                                <span>Posición</span>
+                                <span>Jugador</span>
+                                <span>Frags</span>
+                                <span>Muertes</span>
+                                <span>HS</span>
+                                <span>C4</span>
+                                <span>Puntos</span>
+                            </div>
+                            
+                            <div class="ranking-row top1">
+                                <span class="position">1</span>
+                                <span class="player">NukeMaster</span>
+                                <span>1,247</span>
+                                <span>234</span>
+                                <span>89%</span>
+                                <span>45</span>
+                                <span class="points">2,450</span>
+                            </div>
+                            <div class="ranking-row top2">
+                                <span class="position">2</span>
+                                <span class="player">ProGamer2024</span>
+                                <span>1,156</span>
+                                <span>298</span>
+                                <span>85%</span>
+                                <span>38</span>
+                                <span class="points">2,280</span>
+                            </div>
+                            <div class="ranking-row top3">
+                                <span class="position">3</span>
+                                <span class="player">EliteShooter</span>
+                                <span>1,089</span>
+                                <span>267</span>
+                                <span>82%</span>
+                                <span>42</span>
+                                <span class="points">2,150</span>
+                            </div>
+                            <div class="ranking-row">
+                                <span class="position">4</span>
+                                <span class="player">SniperKing</span>
+                                <span>978</span>
+                                <span>312</span>
+                                <span>79%</span>
+                                <span>35</span>
+                                <span class="points">1,890</span>
+                            </div>
+                            <div class="ranking-row">
+                                <span class="position">5</span>
+                                <span class="player">RushMaster</span>
+                                <span>945</span>
+                                <span>289</span>
+                                <span>76%</span>
+                                <span>41</span>
+                                <span class="points">1,780</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" data-tab="mix2">
+                        <div class="ranking-table">
+                            <!-- Similar structure for Mix II -->
+                            <div class="ranking-header">
+                                <span>Posición</span>
+                                <span>Jugador</span>
+                                <span>Frags</span>
+                                <span>Muertes</span>
+                                <span>HS</span>
+                                <span>Puntos</span>
+                            </div>
+                            <div class="ranking-row top1">
+                                <span class="position">1</span>
+                                <span class="player">Reckless</span>
+                                <span>1,156</span>
+                                <span>198</span>
+                                <span>92%</span>
+                                <span class="points">2,320</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" data-tab="dm">
+                        <div class="ranking-table">
+                            <!-- Similar structure for DM -->
+                            <div class="ranking-header">
+                                <span>Posición</span>
+                                <span>Jugador</span>
+                                <span>Frags</span>
+                                <span>Muertes</span>
+                                <span>K/D</span>
+                            </div>
+                            <div class="ranking-row top1">
+                                <span class="position">1</span>
+                                <span class="player">DeathMatchGod</span>
+                                <span>2,847</span>
+                                <span>1,234</span>
+                                <span class="points">2.31</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" data-tab="public">
+                        <div class="ranking-table">
+                            <!-- Similar structure for Público -->
+                            <div class="ranking-header">
+                                <span>Posición</span>
+                                <span>Jugador</span>
+                                <span>Frags</span>
+                                <span>Muertes</span>
+                                <span>Puntos</span>
+                            </div>
+                            <div class="ranking-row top1">
+                                <span class="position">1</span>
+                                <span class="player">PublicHero</span>
+                                <span>1,567</span>
+                                <span>423</span>
+                                <span class="points">2,890</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Servers Section -->
+            <section class="servers-section breaking-servers" id="servers">
+                <h2 class="section-title">Nuestros Servidores</h2>
+                <div class="servers-grid">
+                    <div class="server-card breaking-style">
+                        <div class="server-image">
+                            <img src="https://cdn.pixabay.com/photo/2015/08/19/05/31/globe-895580_1280.jpg" alt="de_mirage">
+                            <div class="server-overlay">
+                                <span class="server-status online">ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="server-info">
+                            <h3>MIX III</h3>
+                            <div class="server-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-server"></i>
+                                    <span>IP: 45.235.98.66:27022</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Jugadores: 10/15</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Admins: 4 Online</span>
+                                </div>
+                            </div>
+                            <a href="steam://connect/45.235.98.66:27022" class="server-btn">
+                                ¡Ingresa a jugar!
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="server-card breaking-style">
+                        <div class="server-image">
+                            <img src="https://cdn.pixabay.com/photo/2023/10/18/15/43/compass-8324516_1280.jpg" alt="de_mirage">
+                            <div class="server-overlay">
+                                <span class="server-status online">ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="server-info">
+                            <h3>MIX IV RECOIL</h3>
+                            <div class="server-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-server"></i>
+                                    <span>IP: 45.235.98.66:27020</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Jugadores: 10/15</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Admins: 3 Online</span>
+                                </div>
+                            </div>
+                            <a href="steam://connect/45.235.98.66:27020" class="server-btn">
+                                ¡Ingresa a jugar!
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="server-card breaking-style">
+                        <div class="server-image">
+                            <img src="https://cdn.pixabay.com/photo/2017/09/12/16/51/cs-go-2742869_1280.jpg" alt="de_dust2">
+                            <div class="server-overlay">
+                                <span class="server-status online">ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="server-info">
+                            <h3>DM + FFA</h3>
+                            <div class="server-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-server"></i>
+                                    <span>IP: 45.235.98.66:27028</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Jugadores: 18/20</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Admins: 0 Online</span>
+                                </div>
+                            </div>
+                            <a href="steam://connect/45.235.98.66:27028" class="server-btn">
+                                ¡Ingresa a jugar!
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="server-card breaking-style">
+                        <div class="server-image">
+                            <img src="https://cdn.pixabay.com/photo/2022/10/09/20/16/globe-7510104_1280.jpg" alt="de_nuke">
+                            <div class="server-overlay">
+                                <span class="server-status online">ONLINE</span>
+                            </div>
+                        </div>
+                        <div class="server-info">
+                            <h3>MIX I</h3>
+                            <div class="server-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-server"></i>
+                                    <span>IP: 45.235.98.66:27029</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Jugadores: 11/15</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Admins: 1 Online</span>
+                                </div>
+                            </div>
+                            <a href="steam://connect/45.235.98.66:27029" class="server-btn">
+                                ¡Ingresa a jugar!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements System -->
+            <section class="achievements-section">
+                <h2 class="section-title">Sistema de Logros</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card unlocked">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h4>Primer Torneo</h4>
+                            <p>Participa en tu primer torneo</p>
+                            <div class="achievement-progress">100%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card unlocked">
+                        <div class="achievement-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h4>100 Horas Jugadas</h4>
+                            <p>Acumula 100 horas de juego</p>
+                            <div class="achievement-progress">100%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card unlocked">
+                        <div class="achievement-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h4>Top 10 Ranking</h4>
+                            <p>Alcanza el top 10 mensual</p>
+                            <div class="achievement-progress">100%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card locked">
+                        <div class="achievement-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <h4>Kill Streak Master</h4>
+                            <p>Consigue 50 kills sin morir</p>
+                            <div class="achievement-progress">32%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Editor Mode -->
+            <section class="editor-section" id="editor" style="display: none;">
+                <h2 class="section-title">Modo Editor</h2>
+                <div class="editor-container">
+                    <div class="editor-panel">
+                        <h3>Personalizar Nuke Nation</h3>
+                        <div class="editor-controls">
+                            <div class="control-group">
+                                <label>Logo Personalizado:</label>
+                                <div class="logo-editor">
+                                    <div class="logo-preview">
+                                        <i class="fas fa-radiation"></i>
+                                        <span contenteditable="true">NUKE NATION</span>
+                                    </div>
+                                    <button class="edit-btn">Editar</button>
+                                </div>
+                            </div>
+                            
+                            <div class="control-group">
+                                <label>Color Principal:</label>
+                                <input type="color" class="color-picker" value="#ff6b35" data-property="--primary-color">
+                            </div>
+                            
+                            <div class="control-group">
+                                <label>Color Secundario:</label>
+                                <input type="color" class="color-picker" value="#00d4ff" data-property="--secondary-color">
+                            </div>
+                            
+                            <div class="control-group">
+                                <label>Fondo Animación:</label>
+                                <select class="bg-selector">
+                                    <option value="cs">Counter-Strike Elements</option>
+                                    <option value="minecraft">Minecraft Blocks</option>
+                                    <option value="generic">Gaming Icons</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="editor-actions">
+                            <button class="save-btn">Guardar Cambios</button>
+                            <button class="reset-btn">Resetear</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="login-modal" style="display: none;">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Iniciar Sesión</h2>
+            <div class="login-options">
+                <button class="login-option discord">
+                    <i class="fab fa-discord"></i> Continuar con Discord
+                </button>
+                <button class="login-option steam">
+                    <i class="fab fa-steam"></i> Continuar con Steam
+                </button>
+            </div>
+            <p class="login-info">Al iniciar sesión, aceptas nuestros términos y condiciones.</p>
+        </div>
+    </div>
+
+    <!-- Background Animation Canvas -->
+    <canvas id="bg-animation" class="background-canvas"></canvas>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="float-element cs-hud">
+            <i class="fas fa-crosshairs"></i>
+        </div>
+        <div class="float-element explosion">
+            <i class="fas fa-bomb"></i>
+        </div>
+        <div class="float-element minecraft">
+            <i class="fas fa-cube"></i>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="breaking-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-radiation"></i>
+                        <span>NUKE NATION</span>
+                    </div>
+                    <p>La comunidad gaming más explosiva donde los jugadores se convierten en leyendas.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servidores</h4>
+                    <ul>
+                        <li><a href="#">MIX I - II - III</a></li>
+                        <li><a href="#">DM + FFA</a></li>
+                        <li><a href="#">Público</a></li>
+                        <li><a href="#">Minecraft</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Tienda de Rangos</a></li>
+                        <li><a href="#">Ranking Mensual</a></li>
+                        <li><a href="#">Panel Admin</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>WhatsApp: +54 9 11 1234-5678</p>
+                    <p>Email: admin@nukenation.com</p>
+                    <p>Discord: discord.gg/nukenation</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nuke Nation. Todos los derechos reservados.</p>
+                <p>Powered by Gino Dongino</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
