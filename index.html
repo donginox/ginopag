@@ -744,5 +744,31 @@
     </footer>
 
     <script src="script.js"></script>
-</body>
+    <script type="module">
+  import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+
+  const supabaseUrl = 'https://fsmpgzystzedgwrinukb.supabase.co'
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZzbXBnenlzdHplZGd3cmludWtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ5MTk2ODksImV4cCI6MjA3MDQ5NTY4OX0.6bXgSLXvqKRt7T5yt-togXQQX4fbW-zk0z-4PRHt2yg'
+  const supabase = createClient(supabaseUrl, supabaseKey)
+
+  document.getElementById('contactForm').addEventListener('submit', async (e) => {
+    e.preventDefault()
+
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const message = document.getElementById('message').value
+
+    const { error } = await supabase
+      .from('messages')
+      .insert([{ name, email, message }])
+
+    if (error) {
+      alert('Error al enviar: ' + error.message)
+    } else {
+      alert('Mensaje enviado con éxito!')
+      e.target.reset()
+    }
+  })
+</script>
+</body>    
 </html>
