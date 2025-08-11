@@ -1,6 +1,6 @@
 // Nuke Nation - Breaking Gaming Style Platform
 
-class NukeNationBreaking {
+class NukeNation {
     constructor() {
         this.init();
         this.setupBreakingFeatures();
