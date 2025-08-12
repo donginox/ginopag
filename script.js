@@ -923,5 +923,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Global access for debugging
     window.NukeNationBreaking = app;
     
-    console.log('🎮 Nuke Nation Breaking Gaming Platform Ready!');
+    console.log('🎮 Nuke Nation Platform Ready!');
 });
