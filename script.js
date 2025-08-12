@@ -885,10 +885,12 @@ breakingStyles.textContent = `
     }
 `;
 document.head.appendChild(breakingStyles);
-// Crear el cliente de Supabase
+// script.js
+
+// Crear el cliente de Supabase utilizando la variable global 'supabase'
 const supabase = supabase.createClient(
-  'https://fsmpgzystzedgwrinukb.supabase.co',  // URL de Supabase
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZzbXBnenlzdHplZGd3cmludWtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ5MTk2ODksImV4cCI6MjA3MDQ5NTY4OX0.6bXgSLXvqKRt7T5yt-togXQQX4fbW-zk0z-4PRHt2yg'  // Reemplaza con tu clave de API
+  'https://fsmpgzystzedgwrinukb.supabase.co',  // URL correcta de Supabase
+  '<tu-clave-anon>'  // Reemplaza con tu clave de API
 );
 
 // Ejemplo de consulta a la base de datos
@@ -906,8 +908,6 @@ async function getNews() {
 
 // Llamar a la función para probar la conexión
 getNews();
-
-
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     const app = new NukeNationBreaking();
