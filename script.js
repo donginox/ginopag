@@ -885,6 +885,30 @@ breakingStyles.textContent = `
     }
 `;
 document.head.appendChild(breakingStyles);
+// script.js
+
+// Crear el cliente de Supabase
+const supabase = Supabase.createClient(
+  'https://<tu-supabase-url>.supabase.co',  // Reemplaza con tu URL de Supabase
+  '<tu-clave-anon>'  // Reemplaza con tu clave de API
+);
+
+// Ejemplo de consulta a la base de datos
+async function getNews() {
+  const { data, error } = await supabase
+    .from('news')  // Nombre de tu tabla de noticias
+    .select('*');   // Seleccionar todas las columnas de la tabla 'news'
+
+  if (error) {
+    console.error('Error al obtener noticias:', error);
+  } else {
+    console.log('Noticias obtenidas:', data);
+  }
+}
+
+// Llamar a la función para probar la conexión
+getNews();
+
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
